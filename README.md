@@ -27,3 +27,7 @@ There is no tool I'm not willing to learn in order to continue expressing myself
 **One of the things I’m currently worried about is the proliferation of AI and the atrophy of thinking processes in every way.** Because of that, I personally never use generative AI in any step of the creative process. I also dislike narcissists, hierarchies and spiders.
 
 **I won't let a rainy day ruin a sunny disposition.**
+
+---
+
+[Instagram](https://www.instagram.com/on.claude_9?igsh=MXNjYXlsc3ptZjRhNg%3D%3D&utm_source=qr) | [TikTok](https://www.tiktok.com/@on.claude_9?_r=1&_t=ZN-98ng6EKlnmg)
