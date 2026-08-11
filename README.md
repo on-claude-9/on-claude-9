@@ -30,4 +30,4 @@ There is no tool I'm not willing to learn in order to continue expressing myself
 
 ---
 
-[Instagram](https://www.instagram.com/on.claude_9?igsh=MXNjYXlsc3ptZjRhNg%3D%3D&utm_source=qr) | [TikTok](https://www.tiktok.com/@on.claude_9?_r=1&_t=ZN-98ng6EKlnmg)
+[Instagram](https://www.instagram.com/on.claude_9?igsh=MXNjYXlsc3ptZjRhNg%3D%3D&utm_source=qr) | [TikTok](https://www.tiktok.com/@on.claude_9?_r=1&_t=ZN-98ng6EKlnmg) | [Email](mailto:aguilarcla2301@gmail.com)
