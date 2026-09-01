@@ -12,11 +12,13 @@ body
     background: var(--color-bg);
     color: var(--color-text);
     text-align: center;
+    font-size: 2rem;
     font-family: var(--font-body);
 }
 
-h1
+h1, h2, h3
 {
+    font-size: 10rem;
     font-family: var(--font-title);
 }
 
