@@ -1,27 +1,100 @@
+/* :root
+    Aqui se contiene toda la informacion en cuanto a colores y tipografias dentro de variables
+*/
 :root
 {
     --color-bg: #FFF252;
-    --color-text: #AD55DF;
-    --color-accent: #0A0C9D;
+    --color-bg-dark:#6F03AD;
+    --color-text: #6F03AD;
+    --color-text-dark: #FFF252;
+    --color-accent: #0042B8;
+    --color-accent-dark: #D2EAFC;
     --font-title: 'gnar';
     --font-body: 'new-hero', sans-serif;
 }
 
+/* body
+    Implementacion de la tipografia y tamaño de texto basico, junto con los colores
+    la estructura de asignacion de colores se repite exactamente dentro de el otro body y .dark-theme, excepto con las variables diferentes dependiendo del tema
+*/
 body
 {
-    background: var(--color-bg);
-    color: var(--color-text);
     text-align: center;
     font-size: 2rem;
     font-family: var(--font-body);
+
+    transition: all 0.5s ease;
+
+    background: var(--color-bg);
+    color: var(--color-text);
+    a
+    {
+        color: var(--color-accent)
+    }
 }
 
+/* .dark-theme
+    Tan solo cambia las variables que se utilizan para los colores cuando se cambia de esquema de color
+*/
+.dark-theme
+{
+    background: var(--color-bg-dark);
+    color: var(--color-text-dark);
+
+    a
+    {
+        color: var(--color-accent-dark);
+    }
+}
+
+/*  SELECTOR: preferencia dark de usuario
+    Aqui, si el usuario tiene el tema oscuro por default, se aplica la inversa de los colores que se consideraban normalmente. podria mejorar
+*/
+@media (prefers-color-scheme: dark)
+{
+    body
+    {
+        background: var(--color-bg-dark);
+        color: var(--color-text-dark);
+
+        a
+        {
+            color: var(--color-accent-dark);
+        }
+    }
+
+    .dark-theme
+    {
+        background: var(--color-bg);
+        color: var(--color-text);
+        a
+        {
+            color: var(--color-accent)
+        }
+    }
+}
+
+/*  button
+    Los botones (o por lo menos, en esta version, el boton) seran blanco con texto negro, lo cual los hace facilmente visibles sin importar el esquema dark/light
+*/
+button
+{
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/*  h1,2,3
+    Aqui se aplica un tamaño y tipografia diferentes a los titulos html
+*/
 h1, h2, h3
 {
     font-size: 10rem;
     font-family: var(--font-title);
 }
 
+/*  header/footer
+    aqui se alinean los vinculos de arriba a la izquierda, y los de abajo a la derecha
+*/
 header
 {
     text-align: left;
